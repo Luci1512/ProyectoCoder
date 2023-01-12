@@ -20,24 +20,36 @@
     <h1 class="col-lg-6">New Augustine</h1>
   </div>
 </header>
-    
-  </section>
-<!-- fin area marca -->
-<!-- inicia nav -->
+
+
 <section class="container-fluid">
   <div class="row">
-  <nav class="col-lg-10 navbar navbar-expand-lg bg-body-tertiary col-lg-10gi">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          <a class="nav-link" href="./pages/productos.html">Productos</a>
-          <a class="nav-link" href="./pages/colecciones.html">Colecciones</a>
-          <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+      <!-- fin area marca -->
+      <!-- inicia nav -->
+      <nav class="navbar navbar-expand-lg   bg-body-tertiary col-lg-10">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button"      data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="./pages/productos.html">Colecciones</a>
+              </li> 
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/productos.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/productos.html">Contacto</a>
+              </li>
+            </ul>
+
+          </div>
         </div>
-      </div>
-    </div>
   </nav>
     <!-- fin nav -->
 
@@ -50,6 +62,7 @@
     <img src="./imagenes/logos/usuario.png" alt="icono de usuario">
     </a>
     </div>
+    
   </div>
 </section>
 <!-- fin usuario y carro -->
@@ -128,11 +141,13 @@
 
 <!-- Fin section ofertas -->
 <!-- inicia footer -->
-<section>
+<footer class="container-fluid">
   <!-- inicia nav 2 -->
-  <div>
-    <h4>New Augustine</h4>
-    <nav><ul>
+  <section class="row">
+   <div class="col-lg-4">
+      <h4 class="d-none d-sm-block">New Augustine</h4>
+
+      <nav><ul>
         <li>
             <a href="./index.html">Inicio</a>
         </li>
@@ -148,26 +163,28 @@
         <li>
             <a href="./pages/contacto.html">Contacto</a>
         </li>
-    </ul></nav>
-    <!-- fin nav 2 -->
+      </ul></nav>
+      <!-- fin nav 2 -->
 
+  
+    </div>
 
-  </div>
-  <div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ab explicabo labore et ipsam quisquam quis ut placeat debitis magnam a consequuntur quos atque, praesentium, perspiciatis omnis, molestiae tempora ea?</p>
-  </div>
-  <div>
-    <a href="https://twitter.com/">
+    <div class="col-lg-4">
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ab explicabo labore et ipsam quisquam quis ut placeat debitis magnam a consequuntur quos atque, praesentium, perspiciatis omnis, molestiae tempora ea?</p>
+    </div>
+
+    <div class="col-lg-4">
+      <a href="https://twitter.com/">
       <img src="./imagenes/logos/Twitter-logo.png" alt="logo de twitter">
-    </a>
-    <a href="https://www.instagram.com/">
+      </a>
+      <a href="https://www.instagram.com/">
       <img src="./imagenes/logos/Instagram_logo.png" alt="logo de instagram">
-    </a>
-    <a href="https://www.facebook.com/">
+      </a>
+      <a href="https://www.facebook.com/">
       <img src="./imagenes/logos/Facebook_Logo.png" alt="logo de facebook">
-    </a>
-  </div>
-</section>
+      </a>
+  </div></section>
+</footer>
 <!-- fin footer -->
   </body>
 </html>
