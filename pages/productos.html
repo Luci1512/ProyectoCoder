@@ -9,128 +9,153 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
- <!--inicia area de marca -->
-  <header>
-    <div><a href="../index.html">
-      <img src="../imagenes/logos/Logo.png" alt="Logo NewAugustine"></div></a>
-    <div><h1>New Augustine</h1></div>
-    <div><h2>Productos</h2></div>
-  </header>
-<!-- fin area marca -->
-<!-- inicia nav -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          <a class="nav-link" href="../pages/productos.html">Productos</a>
-          <a class="nav-link" href="../pages/colecciones.html">Colecciones</a>
-          <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-<!-- fin nav -->
 
-<!-- inicia usuario y carro -->
-<a href="">
-  <img src="../imagenes/logos/carro.png" alt="icono de carro de compras">
-</a>
-<a href="">
-  <img src="../imagenes/logos/usuario.png" alt="icono de usuario">
-</a>
-<!-- fin usuario y carro -->
+
+ <!--inicia area de marca -->
+ <header class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2  d-none d-sm-block"><a href="../index.html">
+      <img src="../imagenes/logos/Logo.png" alt="Logo NewAugustine">
+      </div></a>
+    <h1 class="col-lg-6">New Augustine</h1>
+  </div>
+</header>
+
+
+<section class="container-fluid">
+  <div class="row">
+      <!-- fin area marca --> 
+      <!-- inicia nav -->
+      <nav class="navbar navbar-expand-lg   bg-body-tertiary col-lg-10 col-sm-10">
+        <div class="container-fluid">
+          <a class="navbar-brand d-none d-sm-block" href="#">Inicio</a>
+          <button class="navbar-toggler" type="button"      data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="../pages/productos.html">Colecciones</a>
+              </li> 
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Contacto</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+  </nav>
+    <!-- fin nav -->
+
+    <!-- inicia usuario y carro -->
+   <div class="col-lg-2 row-gap-sm-2">
+    <a href="">
+    <img src="../imagenes/logos/carro.png" alt="icono de carro de compras">
+    </a>
+    <a href="">
+    <img src="../imagenes/logos/usuario.png" alt="icono de usuario">
+    </a>
+    </div>
+    
+  </div>
+</section>
 
 <!-- inicia main -->
-<h1>Catalogo de productos</h1>
+<main class="container-fluid">
+
+  <h1>Catalogo de productos</h1>
     <!-- inicia filtros -->
-<section>
-  <h3>filtrar por:</h3>
-  <div>
-    <nav>
-      <ul class="list-inline">
-      <li class="list-inline-item">Vestidos</li>
-      <li class="list-inline-item">Tops</li>
-      <li class="list-inline-item">Polleras</li>
-      <li class="list-inline-item">Accesorios</li>
-      <li class="list-inline-item">Buzos</li>
-      <li class="list-inline-item">Jeans</li>
-      <li class="list-inline-item">Remerones</li>
-      <li class="list-inline-item">Shorts</li>
-      <li class="list-inline-item">Pantalones</li>
-      </ul>
-    </nav>
-</section>
+  <section>
+    <h3>filtrar por:</h3>
+      <nav>
+        <ul class="list-inline me-auto mb-2 mb-lg-0">
+          <li class="list-inline-item">Vestidos</li>
+          <li class="list-inline-item">Tops</li>
+          <li class="list-inline-item">Polleras</li>
+          <li class="list-inline-item">Accesorios</li>
+          <li class="list-inline-item">Buzos</li>
+          <li class="list-inline-item">Jeans</li>
+          <li class="list-inline-item">Remerones</li>
+          <li class="list-inline-item">Shorts</li>
+         <li class="list-inline-item">Pantalones</li>
+        </ul>
+      </nav>
+  </section>
     <!-- fin filtros -->
-<!-- inica productos -->
+    <!-- inica productos -->
 
-<section>
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/tapado rosa palido.png" class="card-img-top" alt="">
-    <div class="card-body">
-      <h3 class="card-title">Tapado rosa palido</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+    <section class="row col-sm-6 col-lg-12">
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/tapado rosa palido.png" class="card-img-top" alt="">
+        <div class="card-body">
+        <h4 class="card-title">Tapado rosa palido</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+        </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/top amarillo palido.png" class="card-img-top" alt="Top amarillo palido">
-    <div class="card-body">
-      <h3 class="card-title">Top amarillo palido</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/top amarillo palido.png" class="card-img-top" alt="Top amarillo palido">
+        <div class="card-body">
+        <h4 class="card-title">Top amarillo palido</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+       </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/top asimetrico.png" class="card-img-top" alt="Top asimetrico">
-    <div class="card-body">
-      <h3 class="card-title">Top asimetrico</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/top asimetrico.png" class="card-img-top" alt="Top asimetrico">
+        <div class="card-body">
+        <h4 class="card-title">Top asimetrico</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+        </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/top naranja.png" class="card-img-top" alt="top naranja">
-    <div class="card-body">
-      <h3 class="card-title">Top naranja</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/top naranja.png" class="card-img-top" alt="top naranja">
+        <div class="card-body">
+        <h4 class="card-title">Top naranja</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+        </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/top negro.png" class="card-img-top" alt="top negro">
-    <div class="card-body">
-      <h3 class="card-title">Top negro</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/top negro.png" class="card-img-top" alt="top negro">
+        <div class="card-body">
+       <h4 class="card-title">Top negro</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+        </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/vestido hasta las rodillas.png" class="card-img-top" alt="vestido hasta las rodillas rosa claro">
-    <div class="card-body">
-      <h3 class="card-title">Vestido rosa claro</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/vestido hasta las rodillas.png" class="card-img-top" alt="vestido hasta las rodillas rosa claro">
+        <div class="card-body">
+        <h4 class="card-title">Vestido rosa claro</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+       </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/vestido largo celeste claro.png" class="card-img-top" alt="vestido largo celeste claro">
-    <div class="card-body">
-      <h3 class="card-title">Vestido largo celeste claro</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/vestido largo celeste claro.png" class="card-img-top" alt="vestido largo celeste claro">
+        <div class="card-body">
+        <h4 class="card-title">Vestido largo celeste claro</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+       </div>
+      </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="../imagenes/Poductos/vestido negro largo con transparencia.png" class="card-img-top" alt="vestido negro largo con transparencia">
-    <div class="card-body">
-      <h3 class="card-title">Vestido negro con transparencia</h3>
-      <a href="#" class="btn btn-primary">Ver producto</a>
-    </div>
-  </div>
+      <div class="card" style="width: 20rem;">
+        <img src="../imagenes/Poductos/vestido negro largo con transparencia.png" class="card-img-top" alt="vestido negro largo con transparencia">
+        <div class="card-body">
+        <h4 class="card-title">Vestido negro con transparencia</h4>
+        <a href="#" class="btn btn-primary">Ver producto</a>
+        </div>
+      </div>
 
-</section>
+    </section>
 <!-- fin productos -->
 <!-- inicia paginacion -->
 
@@ -153,44 +178,54 @@
 </nav>
 
 <!-- fin paginacion -->
+
+</main>
+
 <!-- inicia footer -->
-<section>
+<footer class="container-fluid">
   <!-- inicia nav 2 -->
-  <div>
-    <h4>New Augustine</h4>
-    <nav><ul>
+  <section class="row">
+   <div class="col-lg-4">
+      <h4 class="d-none d-sm-block">New Augustine</h4>
+
+      <nav><ul>
         <li>
             <a href="../index.html">Inicio</a>
         </li>
         <li>
-            <a href="./productos.html">Productos</a>
+            <a href="../pages/productos.html">Productos</a>
         </li>
         <li>
-            <a href="./colecciones.html">Colecciones</a>
+            <a href="../pages/colecciones.html">Colecciones</a>
         </li>
         <li>
-            <a href="./nosotros.html">Nosotros</a>
+            <a href="../pages/nosotros.html">Nosotros</a>
         </li>
         <li>
-            <a href="./contacto.html">Contacto</a>
+            <a href="../pages/contacto.html">Contacto</a>
         </li>
-    </ul></nav>
-    <!-- fin nav 2 -->
-  <div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ab explicabo labore et ipsam quisquam quis ut placeat debitis magnam a consequuntur quos atque, praesentium, perspiciatis omnis, molestiae tempora ea?</p>
-  </div>
-  <div>
-    <a href="https://twitter.com/">
+      </ul></nav>
+      <!-- fin nav 2 -->
+
+  
+    </div>
+
+    <div class="col-lg-4">
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ab explicabo labore et ipsam quisquam quis ut placeat debitis magnam a consequuntur quos atque, praesentium, perspiciatis omnis, molestiae tempora ea?</p>
+    </div>
+
+    <div class="col-lg-4">
+      <a href="https://twitter.com/">
       <img src="../imagenes/logos/Twitter-logo.png" alt="logo de twitter">
-    </a>
-    <a href="https://www.instagram.com/">
+      </a>
+      <a href="https://www.instagram.com/">
       <img src="../imagenes/logos/Instagram_logo.png" alt="logo de instagram">
-    </a>
-    <a href="https://www.facebook.com/">
+      </a>
+      <a href="https://www.facebook.com/">
       <img src="../imagenes/logos/Facebook_Logo.png" alt="logo de facebook">
-    </a>
-  </div>
-</section>
+      </a>
+  </div></section>
+</footer>
 <!-- fin footer -->
 
   </body>
