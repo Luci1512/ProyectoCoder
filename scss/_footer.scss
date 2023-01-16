@@ -1,0 +1,45 @@
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1-desk: 8em;
+$fontsH2-desk: 5em;
+$fontsH3-desk: 4em;
+$fontsH4-desk: 2em;
+
+//colors
+$primary: #fccbca;
+$secondary: rgb(252, 227, 227);
+$footerBgcolor: rgb(0,0,0);
+$footerTextColor: rgb(255, 255, 255);
+
+//height
+$heightA: auto;
+
+footer{
+    background-color: $footerBgcolor;
+    h4{
+        color: $footerTextColor;
+        font-size: $fontsH4-desk;
+        font-family: $secondFuente;
+    }
+    p{
+        font-family: $secondFuente;
+        color: $footerTextColor;
+        padding-top: 3rem;
+    }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                text-decoration: none;
+            }
+        }
+    }
+    div{
+        img{
+            padding: 2rem;
+        }
+    }
+}

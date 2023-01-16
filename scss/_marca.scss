@@ -1,0 +1,35 @@
+
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1-desk: 8em;
+$fontsH2-desk: 5em;
+$fontsH3-desk: 4em;
+$fontsH4-desk: 2em;
+
+//colors
+$primary: #fccbca;
+$secondary: rgb(252, 227, 227);
+$footerBgcolor: rgb(0,0,0);
+
+//height
+$heightA: auto;
+
+
+header{
+    background-color: $primary;
+    h1{
+        font-family: $mainFuente;
+        font-size: $fontsH1-desk;
+        text-align: center;
+        
+    }
+    h2{
+        font-family: $mainFuente;
+        font-size: $fontsH2-desk;
+        padding-left: 70%;
+    }
+    }
+    

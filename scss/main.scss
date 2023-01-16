@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@600&display=swap');
+
+@import "./marca";
+@import "./footer";
+@import "./productos";
+
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1: 10em;
+$fontsH2: 8em;
+$fontsH3: 6em;
+$fontsH4: 4em;
+
+//colors
+$primary: #fccbca;
+$secondary: rgb(252, 227, 227);
+$footerBgcolor: rgb(0,0,0);
+//height
+$heightA: auto;
+
+//ejemplos
+
+$color-primario: #55A;
+$color-secundario: #6B6;
+$color-texto: #666;
+

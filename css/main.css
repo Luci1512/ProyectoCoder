@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@600&display=swap");
+header {
+  background-color: #fccbca;
+}
+header h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 8em;
+  text-align: center;
+}
+header h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5em;
+  padding-left: 70%;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+footer h4 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: "Nunito", sans-serif;
+}
+footer p {
+  font-family: "Nunito", sans-serif;
+  color: rgb(255, 255, 255);
+  padding-top: 3rem;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li {
+  text-decoration: none;
+}
+footer div img {
+  padding: 2rem;
+}
+
+.btn-primary {
+  background-color: rgb(228, 114, 114);
+  border-color: rgb(228, 114, 114);
+}
+
+.paginacion {
+  padding-left: 40%;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+  background-color: rgb(252, 227, 227);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+}
+
+main nav {
+  margin-bottom: 1rem;
+}
+main nav ul li {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
+  padding-left: 1.5rem;
+}
+main section div {
+  margin-left: 2%;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
