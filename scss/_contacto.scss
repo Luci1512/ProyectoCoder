@@ -1,0 +1,82 @@
+//fonts
+$mainFuente:'Dancing Script', cursive;
+$secondFuente: 'Nunito', sans-serif;
+
+//tamaños
+$fontsH1-desk: 8em;
+$fontsH2-desk: 5em;
+$fontsH3-desk: 4em;
+$fontsH4-desk: 2em;
+$fontsH1-mobile:0.1em;
+
+//colors
+$primary: #fccbca;
+$secondary: rgb(252, 227, 227);
+$btnColor:rgb(228, 114, 114);
+$footerBgcolor: rgb(0,0,0);
+$footerTextColor: rgb(255, 255, 255);
+
+//height
+$heightA: auto;
+
+@mixin titulo {
+    font-family: $mainFuente;
+    background-color: $secondary;
+    margin-bottom: 1.5rem;
+    font-size: 3em;
+    padding-left: 1rem;
+}
+.titulo{@include titulo};
+
+@mixin box{
+    border-style: solid;
+    border-color:$secondary;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+.box{@include box}
+
+.icons{
+    align-items: center;
+    img{
+         padding-left: 1rem;
+    padding-left: 1rem;
+    }
+   
+}
+
+main{
+    div{
+        section{
+            div{
+                align-items: center;
+                a{
+                    img{
+                        margin-left:  15%;
+                        margin-bottom: 1%;
+                        margin-top: 1%;
+                    }
+                }
+            }
+        }
+        iframe{
+            margin-left: 15%;
+            width: 30rem;
+            height: 20rem;
+        }
+    }
+    section{
+        form{
+            button{
+                margin-left: 40%;
+                margin-top: 2%;
+                width: 10rem;
+            }
+        }
+    }
+}

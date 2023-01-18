@@ -3,6 +3,7 @@
 @import "./marca";
 @import "./footer";
 @import "./productos";
+@import "./contacto";
 
 
 //fonts
@@ -14,6 +15,7 @@ $fontsH1: 10em;
 $fontsH2: 8em;
 $fontsH3: 6em;
 $fontsH4: 4em;
+$fontsH1-mobile: 0.5em;
 
 //colors
 $primary: #fccbca;
@@ -21,3 +23,5 @@ $secondary: rgb(252, 227, 227);
 $footerBgcolor: rgb(0,0,0);
 //height
 $heightA: auto;
+
+

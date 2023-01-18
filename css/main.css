@@ -1,16 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@600&display=swap");
+.fontsH1-mobile {
+  font-size: 2.5em;
+  font-family: "Dancing Script", cursive;
+}
+
+.fontsH2-mobile {
+  font-size: 2em;
+  font-family: "Dancing Script", cursive;
+}
+
 header {
   background-color: #fccbca;
 }
 header h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 8em;
+  font-size: 7em;
   text-align: center;
 }
 header h2 {
   font-family: "Dancing Script", cursive;
   font-size: 5em;
   padding-left: 70%;
+}
+
+.imgMargin {
+  margin-left: 8%;
 }
 
 footer {
@@ -47,6 +61,12 @@ footer div img {
   width: 20rem;
 }
 
+.productosMobile {
+  margin-left: 5%;
+  margin-bottom: 1rem;
+  width: 11rem;
+}
+
 .paginacion {
   padding-left: 40%;
 }
@@ -70,6 +90,52 @@ main nav ul li {
   font-family: "Nunito", sans-serif;
   font-size: 1.5em;
   padding-left: 1.5rem;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  background-color: rgb(252, 227, 227);
+  margin-bottom: 1.5rem;
+  font-size: 3em;
+  padding-left: 1rem;
+}
+
+.box {
+  border-style: solid;
+  border-color: rgb(252, 227, 227);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.icons {
+  align-items: center;
+}
+.icons img {
+  padding-left: 1rem;
+  padding-left: 1rem;
+}
+
+main div section div {
+  align-items: center;
+}
+main div section div a img {
+  margin-left: 15%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+main div iframe {
+  margin-left: 15%;
+  width: 30rem;
+  height: 20rem;
+}
+main section form button {
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 10rem;
 }
 
 /*# sourceMappingURL=main.css.map */

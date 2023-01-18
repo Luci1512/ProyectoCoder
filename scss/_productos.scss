@@ -7,6 +7,7 @@ $fontsH1-desk: 8em;
 $fontsH2-desk: 5em;
 $fontsH3-desk: 4em;
 $fontsH4-desk: 2em;
+$fontsH1-mobile:0.1em;
 
 //colors
 $primary: #fccbca;
@@ -26,6 +27,12 @@ $heightA: auto;
     width: 20rem;
 }
 
+@mixin productos-mobile{
+    margin-left: 5%;
+    margin-bottom: 1rem;
+    width: 11rem;
+};
+
 .btn-primary{
     background-color: $btnColor;
     border-color: $btnColor;
@@ -33,6 +40,10 @@ $heightA: auto;
 
 .productos{
     @include Productos;
+}
+
+.productosMobile {
+    @include productos-mobile;
 }
 
 .paginacion{

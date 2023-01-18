@@ -33,3 +33,6 @@
   </div>
   </section>
   <!-- fin diseños destacados movile-->
+
+
+  Si quisiera que en las pantallas extra pequeñas (xs) el color de fondo que aplica la clase .miestilo sea rojo, y para el resto de tamaños sea verde, podrías hacer:
