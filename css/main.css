@@ -25,6 +25,8 @@ header h2 {
 
 .imgMargin {
   margin-left: 8%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 footer {
@@ -48,6 +50,7 @@ footer nav ul li {
 }
 footer div img {
   padding: 2rem;
+  margin-top: 1.5rem;
 }
 
 .btn-primary {

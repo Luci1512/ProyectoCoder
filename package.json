@@ -1,0 +1,29 @@
+{
+  "name": "proyectocoder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luci1512/ProyectoCoder.git"
+  },
+  "author": "Luciana Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luci1512/ProyectoCoder/issues"
+  },
+  "homepage": "https://github.com/Luci1512/ProyectoCoder#readme",
+  "dependencies": {
+    "sass": "^1.57.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "description": "New Augustine es una marca de ropa que cuenta con una gran diversidad de prendas, siendo su especialidad una gama de vestido diseñados exclusivamente por la marca. Nuestra pagina web cuenta con tienda online, una seccion de contacto con todos los datos pertinentes para que los clientes o cualquier interesado pueda comunicarse directamente con nosotros"
+}
