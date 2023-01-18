@@ -8,6 +8,7 @@ $fontsH1-desk: 8em;
 $fontsH2-desk: 5em;
 $fontsH3-desk: 4em;
 $fontsH4-desk: 2em;
+$fontsH1-mobile:1em;
 
 //colors
 $primary: #fccbca;
@@ -20,6 +21,7 @@ $heightA: auto;
 
 header{
     background-color: $primary;
+    
     h1{
         font-family: $mainFuente;
         font-size: $fontsH1-desk;

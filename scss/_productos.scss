@@ -18,9 +18,21 @@ $footerTextColor: rgb(255, 255, 255);
 //height
 $heightA: auto;
 
+//mixins
+
+@mixin Productos {
+    margin-left: 2%;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
 .btn-primary{
     background-color: $btnColor;
     border-color: $btnColor;
+}
+
+.productos{
+    @include Productos;
 }
 
 .paginacion{
@@ -53,13 +65,8 @@ main{
             }
         }
     }
-
-    section{
-        div{
-            margin-left: 2%;
-            margin-bottom: 1rem;
-        }
-    }
 }
+
+
 
 

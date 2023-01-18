@@ -41,6 +41,12 @@ footer div img {
   border-color: rgb(228, 114, 114);
 }
 
+.productos {
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
 .paginacion {
   padding-left: 40%;
 }
@@ -64,10 +70,6 @@ main nav ul li {
   font-family: "Nunito", sans-serif;
   font-size: 1.5em;
   padding-left: 1.5rem;
-}
-main section div {
-  margin-left: 2%;
-  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
