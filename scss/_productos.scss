@@ -20,11 +20,32 @@ $footerTextColor: rgb(255, 255, 255);
 $heightA: auto;
 
 //mixins
+.figuras {display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1rem;
+    margin: auto;
+    position: relative;
+    width: auto;
+    margin-left: 1rem;
+    }
 
 @mixin Productos {
-    margin-left: 2%;
+    margin-left: 0.2rem;
     margin-bottom: 1rem;
-    width: 20rem;
+    padding: 0; 
+
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 17rem;
+    justify-content: center;
+    justify-items: stretch;
+    border-radius: 2rem;
+    img{
+        border-radius: 2rem;
+    }
 }
 
 @mixin productos-mobile{
@@ -32,6 +53,8 @@ $heightA: auto;
     margin-bottom: 1rem;
     width: 11rem;
 };
+
+
 
 .btn-primary{
     background-color: $btnColor;
@@ -47,7 +70,8 @@ $heightA: auto;
 }
 
 .paginacion{
-    padding-left: 40%;
+    position: relative;
+    align-items: center;
 }
 
 h3{
@@ -61,6 +85,11 @@ h3{
 h4{
     font-family: $secondFuente;
 
+}
+
+.productBtn{
+    margin-bottom : 0.2rem;
+    position: relative;
 }
 
 main{

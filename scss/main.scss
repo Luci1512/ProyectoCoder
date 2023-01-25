@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@600&display=swap');
 
+@import "./pruducs";
 @import "./marca";
 @import "./footer";
 @import "./productos";
@@ -10,18 +11,32 @@
 $mainFuente:'Dancing Script', cursive;
 $secondFuente: 'Nunito', sans-serif;
 
-//tamaños
+//tamaños letras
 $fontsH1: 10em;
 $fontsH2: 8em;
 $fontsH3: 6em;
 $fontsH4: 4em;
 $fontsH1-mobile: 0.5em;
 
+//tamaños imgs
+$imgsPrducts: 20rem;
+
 //colors
 $primary: #fccbca;
 $secondary: rgb(252, 227, 227);
+$backgroundColor: rgb(255, 242, 223);
 $footerBgcolor: rgb(0,0,0);
 //height
 $heightA: auto;
 
+//flex
+
+.posicionTitles{
+    display: flex;
+    position: relative;
+}
+
+main{
+    background-color: $backgroundColor ;
+}
 

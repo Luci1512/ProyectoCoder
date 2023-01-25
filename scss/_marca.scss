@@ -31,14 +31,16 @@ header{
    
     h1{
         font-family: $mainFuente;
-         font-size: $fontsH1-desk;
+        font-size: $fontsH1-desk;
         text-align: center;
-        
+       
     }
+
     h2{
         font-family: $mainFuente;
         font-size: $fontsH2-desk;
-        padding-left: 70%;
+        text-align: right;
+      
     }
 }
 
