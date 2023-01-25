@@ -86,6 +86,11 @@ footer div img {
   border-radius: 2rem;
 }
 
+@media (max-width: 576px) {
+  .productos {
+    max-width: 10rem;
+  }
+}
 .productosMobile {
   margin-left: 5%;
   margin-bottom: 1rem;
