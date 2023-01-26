@@ -70,6 +70,12 @@ $heightA: auto;
     }
 }
 
+@media(max-width: 575px){
+    .productos {
+       max-width: 8rem;
+    }
+}
+
 .productosMobile {
     @include productos-mobile;
 }

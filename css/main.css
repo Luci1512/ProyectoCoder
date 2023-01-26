@@ -91,6 +91,11 @@ footer div img {
     max-width: 10rem;
   }
 }
+@media (max-width: 575px) {
+  .productos {
+    max-width: 8rem;
+  }
+}
 .productosMobile {
   margin-left: 5%;
   margin-bottom: 1rem;
