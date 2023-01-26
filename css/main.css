@@ -10,7 +10,7 @@
 }
 
 header {
-  background-color: #fccbca;
+  background-color: #f9b1b1;
 }
 header h1 {
   font-family: "Dancing Script", cursive;
@@ -30,7 +30,7 @@ header h2 {
 }
 
 footer {
-  background-color: rgb(0, 0, 0);
+  background-color: #1b1b1b;
 }
 footer h4 {
   color: rgb(255, 255, 255);
@@ -67,7 +67,7 @@ footer div img {
 
 @media (max-width: 576px) {
   .productos {
-    max-width: 12rem;
+    max-width: 11rem;
     margin-left: 0, 5rem;
     margin-bottom: 0, 5rem;
     border-radius: 1rem;
@@ -191,7 +191,7 @@ main section form button {
 }
 
 main {
-  background-color: rgb(255, 242, 223);
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

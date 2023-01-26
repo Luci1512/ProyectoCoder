@@ -10,11 +10,17 @@ $fontsH4-desk: 2em;
 $fontsH1-mobile:0.1em;
 
 //colors
-$primary: #fccbca;
+$primary: #f9b1b1;
 $secondary: rgb(252, 227, 227);
+$backgroundColor: #ffffff;
+$third:#c87c7c;
+$footerBgcolor: #1b1b1b;
 $btnColor:rgb(228, 114, 114);
-$footerBgcolor: rgb(0,0,0);
+
 $footerTextColor: rgb(255, 255, 255);
+
+
+
 
 //height
 $heightA: auto;
@@ -47,22 +53,22 @@ $heightA: auto;
     }
 }
 
-@media(max-width: 576px){
-    .productos {
-       max-width: 12rem;
-       margin-left: 0,05rem;
-       margin-bottom: 0,05rem;
-       border-radius: 1rem;
-       img{
+    @media(max-width: 576px){
+        .productos {
+        max-width: 11rem;
+        margin-left: 0,05rem;
+        margin-bottom: 0,05rem;
         border-radius: 1rem;
-       }}
-    }
+        img{
+            border-radius: 1rem;
+        }}
+        }
 
-@media(max-width: 575px){
-    .productos {
-       max-width: 8rem;
+    @media(max-width: 575px){
+        .productos {
+        max-width: 8rem;
+        }
     }
-}
 
 @mixin productos-mobile{
     margin-left: 5%;
