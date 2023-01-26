@@ -67,7 +67,13 @@ footer div img {
 
 @media (max-width: 576px) {
   .productos {
-    max-width: 11rem;
+    max-width: 12rem;
+    margin-left: 0, 5rem;
+    margin-bottom: 0, 5rem;
+    border-radius: 1rem;
+  }
+  .productos img {
+    border-radius: 1rem;
   }
 }
 @media (max-width: 575px) {
