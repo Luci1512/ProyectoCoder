@@ -65,13 +65,23 @@ footer div img {
   margin-left: 1rem;
 }
 
+@media (max-width: 576px) {
+  .productos {
+    max-width: 11rem;
+  }
+}
+@media (max-width: 575px) {
+  .productos {
+    max-width: 8rem;
+  }
+}
 .btn-primary {
   background-color: rgb(228, 114, 114);
   border-color: rgb(228, 114, 114);
 }
 
 .productos {
-  margin-left: 0.2rem;
+  margin-left: 0.1rem;
   margin-bottom: 1rem;
   padding: 0;
   display: flex;
@@ -86,16 +96,6 @@ footer div img {
   border-radius: 2rem;
 }
 
-@media (max-width: 576px) {
-  .productos {
-    max-width: 10rem;
-  }
-}
-@media (max-width: 575px) {
-  .productos {
-    max-width: 8rem;
-  }
-}
 .productosMobile {
   margin-left: 5%;
   margin-bottom: 1rem;
