@@ -9,18 +9,45 @@
   font-family: "Dancing Script", cursive;
 }
 
+@media (max-width: 780px) {
+  .logo {
+    max-width: 5rem;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 3rem;
+    margin: 0 auto;
+  }
+}
+
 header {
   background-color: #f9b1b1;
 }
 header h1 {
   font-family: "Dancing Script", cursive;
   font-size: 7em;
-  text-align: center;
+  margin: 0 auto;
+}
+@media (max-width: 780px) {
+  header h1 {
+    font-size: 4em;
+    text-align: center;
+  }
 }
 header h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 5em;
+  font-size: 5.5em;
   text-align: right;
+}
+@media (max-width: 780px) {
+  header h2 {
+    font-size: 3em;
+    text-align: right;
+  }
+}
+header div {
+  margin: 0 auto;
 }
 
 .imgMargin {
@@ -102,13 +129,15 @@ footer div img {
   border-radius: 2rem;
 }
 
-.productosMobile {
-  margin-left: 5%;
-  margin-bottom: 1rem;
-  width: 11rem;
+.filtro {
+  width: 4rem;
+  margin: 0 auto;
 }
 
 .paginacion {
+  display: flex;
+  margin: 0 auto;
+  color: rgb(252, 227, 227);
   position: relative;
   align-items: center;
 }
@@ -139,6 +168,24 @@ main nav ul li {
   padding-left: 1.5rem;
 }
 
+div nav {
+  margin: 0 auto;
+}
+
+.colecciones {
+  max-width: 28rem;
+  margin-left: 1%;
+  font-family: "Nunito", sans-serif;
+  font-size: 2em;
+}
+
+@media (max-width: 576px) {
+  .colecciones {
+    max-width: 8rem;
+    font-size: 0, 5em;
+    margin-left: 0, 5%;
+  }
+}
 .titulo {
   font-family: "Dancing Script", cursive;
   background-color: rgb(252, 227, 227);

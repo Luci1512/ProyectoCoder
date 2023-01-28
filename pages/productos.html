@@ -16,19 +16,13 @@
 
  <!--inicia area de marca -->
  <header class="container-fluid">
-  <div class="row  col-12">
-    <div class="col-lg-3  d-none d-sm-block"><a href="../index.html">
-      <img src="../img/logos/logo-new-augustine.webp" alt="Logo NewAugustine">
+  <div class="row row-cols-auto">
+    <div class="col-lg-2  col-md-3"><a href="../index.html">
+      <img class="logo" src="../img/logos/logo-new-augustine.webp" alt="Logo NewAugustine">
     </div></a>
-    <div class="col-lg-6 d-none d-sm-block">
-      <h1>New Augustine</h1>
-      <h2>Productos</h2>
-    </div>
-    <div class="d-block d-sm-block d-md-none ">
-      <h1 class="fontsH1-mobile">New Augustine</h1>
-      <h2 class="fontsH2-mobile">Productos</h2>
-    </div>
+    <h1 class="col-lg-10 col-md-9 d-none d-sm-block d-md-block">New Augustine</h1>
   </div>
+   <h2 class="col-lg-8 col-md-12 d-none d-sm-block">Productos</h2>
 </header>
 
 
@@ -86,22 +80,24 @@
 
   <h3>Catalogo de productos</h3>
     <!-- inicia filtros -->
-  <section>
-    <h4>Filtrar por:</h4>
-      <nav>
-        <ul class="list-inline me-auto mb-2 mb-lg-0">
-          <li class="list-inline-item nav-item">Vestidos</li>
-          <li class="list-inline-item nav-item">Tops</li>
-          <li class="list-inline-item nav-item">Polleras</li>
-          <li class="list-inline-item nav-item">Accesorios</li>
-          <li class="list-inline-item nav-item">Buzos</li>
-          <li class="list-inline-item nav-item">Jeans</li>
-          <li class="list-inline-item nav-item">Remerones</li>
-          <li class="list-inline-item nav-item">Shorts</li>
-          <li class="list-inline-item nav-item">Pantalones</li>
-        </ul>
-      </nav>
-  </section>
+
+    <div class="dropdown filtro">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Filtrar por:
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../404.html">Vestidos</a></li>
+        <li><a class="dropdown-item" href="../404.html">Tops</a></li>
+        <li><a class="dropdown-item" href="../404.html">Polleras</a></li>
+        <li><a class="dropdown-item" href="../404.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="../404.html">Buzos</a></li>
+        <li><a class="dropdown-item" href="../404.html">Jeans</a></li>
+        <li><a class="dropdown-item" href="../404.html">Remerones</a></li>
+        <li><a class="dropdown-item" href="../404.html">Shorts</a></li>
+        <li><a class="dropdown-item" href="../404.html">Pantalones</a></li>
+      </ul>
+    </div>
+
     <!-- fin filtros -->
     <!-- inica productos desktop -->
 
@@ -150,7 +146,7 @@
         <li class="card  productos">
           <img src="../img/productos/top-negro-basico.webp" class="card-img-top" alt="top negro basico">
           <div class="card-body">
-            <h4 class="card-title">Top negro basico/h4>
+            <h4 class="card-title">Top negro basico</h4>
               <div class="productBtn">
                 <a href="#" class="btn btn-primary">Ver producto</a>
               </div>
@@ -170,7 +166,7 @@
         <li class="card  productos">
           <img src="../img/productos/vestido-largo-celeste-claro.webp" class="card-img-top" alt="vestido largo celeste claro">
           <div class="card-body">
-            <h4 class="card-title">Vestido largo celeste claro/h4>
+            <h4 class="card-title">Vestido largo celeste claro</h4>
               <div class="productBtn">
                 <a href="#" class="btn btn-primary">Ver producto</a>
               </div>
@@ -193,12 +189,12 @@
     <!-- fin productos desktop -->
 
 </section>
-
+</main>
 
 <!-- inicia paginacion -->
-<section class="container-fluid">
 
-  <nav class="row paginacion" aria-label="Page navigation example position-absolute bottom-0 end-0">
+<div class="paginacion">
+  <nav aria-label="Page navigation example">
     <ul class="pagination">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
@@ -215,13 +211,14 @@
       </li>
     </ul>
   </nav>
+</div>
 
-</section>
+  
+
 
 
 <!-- fin paginacion -->
 
-</main>
 
 <!-- inicia footer -->
 <footer class="container-fluid">
