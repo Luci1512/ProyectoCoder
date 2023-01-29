@@ -35,7 +35,7 @@ $heightA: auto;
 @mixin box{
     border-style: solid;
     border-color:$secondary;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     p{
         font-size: 1.5em;
@@ -46,11 +46,7 @@ $heightA: auto;
 .box{@include box}
 
 .icons{
-    align-items: center;
-    img{
-         padding-left: 1rem;
-    padding-left: 1rem;
-    }
+    margin: 0 auto;
    
 }
 
@@ -72,6 +68,10 @@ main{
             margin-left: 15%;
             width: 30rem;
             height: 20rem;
+            @media(max-width:576px){
+          
+                max-width: 22rem;
+            }
         }
     }
     section{

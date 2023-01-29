@@ -21,9 +21,21 @@ $footerTextColor: rgb(255, 255, 255);
 //height
 $heightA: auto;
 
+.footerRedes{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    @media(max-width: 576px){
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
-footer{
+}
+
+
+footer{    
     background-color: $footerBgcolor;
+
     h4{
         color: $footerTextColor;
         font-size: $fontsH4-desk;
@@ -34,6 +46,8 @@ footer{
         color: $footerTextColor;
         padding-top: 3rem;
     }
+
+    
     nav{
         ul{
             list-style: none;
@@ -42,10 +56,5 @@ footer{
             }
         }
     }
-    div{
-        img{
-            padding: 2rem;
-            margin-top: 1.5rem;
-        }
-    }
+    
 }

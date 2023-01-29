@@ -65,10 +65,24 @@ header{
 }
 
 //nosotros
+.imgNosotros{
+   max-width: 30rem;
+   @media(max-width:768px){
+    max-width: 25rem;
+    margin: 0 auto;
+   }
+   @media(max-width: 576px){
+    max-width: 20rem;
+    margin: 0 auto;
+   }
+
+}
 .imgMargin{
-    margin-left: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+
 }
 
     
