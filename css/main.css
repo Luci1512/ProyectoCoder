@@ -242,7 +242,7 @@ div nav {
 }
 @media (max-width: 576px) {
   .map {
-    padding: 0 auto;
+    padding-left: 0;
     width: 15rem;
   }
 }
