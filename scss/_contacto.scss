@@ -47,7 +47,16 @@ $heightA: auto;
 
 .icons{
     margin: 0 auto;
-   
+}
+
+.map{
+    margin-left: 15%;
+    width: 30rem;
+    height: 20rem;
+    @media(max-width:576px){
+  
+        max-width: 22rem;
+    }
 }
 
 main{
@@ -64,15 +73,7 @@ main{
                 }
             }
         }
-        iframe{
-            margin-left: 15%;
-            width: 30rem;
-            height: 20rem;
-            @media(max-width:576px){
-          
-                max-width: 22rem;
-            }
-        }
+        
     }
     section{
         form{

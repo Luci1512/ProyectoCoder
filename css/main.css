@@ -234,6 +234,17 @@ div nav {
   margin: 0 auto;
 }
 
+.map {
+  margin-left: 15%;
+  width: 30rem;
+  height: 20rem;
+}
+@media (max-width: 576px) {
+  .map {
+    max-width: 22rem;
+  }
+}
+
 main div section div {
   align-items: center;
 }
@@ -241,16 +252,6 @@ main div section div a img {
   margin-left: 15%;
   margin-bottom: 1%;
   margin-top: 1%;
-}
-main div iframe {
-  margin-left: 15%;
-  width: 30rem;
-  height: 20rem;
-}
-@media (max-width: 576px) {
-  main div iframe {
-    max-width: 22rem;
-  }
 }
 main section form button {
   margin-left: 40%;
