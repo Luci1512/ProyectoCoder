@@ -181,7 +181,7 @@ div nav {
 
 @media (max-width: 576px) {
   .colecciones {
-    max-width: 8rem;
+    max-width: 12rem;
     font-size: 0, 5em;
     margin-left: 0, 5%;
   }
