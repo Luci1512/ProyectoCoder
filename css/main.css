@@ -241,7 +241,8 @@ div nav {
 }
 @media (max-width: 576px) {
   .map {
-    max-width: 22rem;
+    margin-left: 2%;
+    max-width: 18rem;
   }
 }
 
