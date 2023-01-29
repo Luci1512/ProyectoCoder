@@ -85,6 +85,13 @@ header div {
   }
 }
 
+.footerNav {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: "Nunito", sans-serif;
+}
+
 footer {
   background-color: #1b1b1b;
 }
@@ -97,12 +104,6 @@ footer p {
   font-family: "Nunito", sans-serif;
   color: rgb(255, 255, 255);
   padding-top: 3rem;
-}
-footer nav ul {
-  list-style: none;
-}
-footer nav ul li {
-  text-decoration: none;
 }
 
 .figuras {
@@ -241,8 +242,8 @@ div nav {
 }
 @media (max-width: 576px) {
   .map {
-    margin-left: 2%;
-    max-width: 18rem;
+    padding: 0 auto;
+    max-width: 20rem;
   }
 }
 

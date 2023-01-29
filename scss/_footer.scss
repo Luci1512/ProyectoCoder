@@ -32,6 +32,13 @@ $heightA: auto;
 
 }
 
+.footerNav{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: $secondFuente;
+
+}
 
 footer{    
     background-color: $footerBgcolor;
@@ -47,14 +54,5 @@ footer{
         padding-top: 3rem;
     }
 
-    
-    nav{
-        ul{
-            list-style: none;
-            li{
-                text-decoration: none;
-            }
-        }
-    }
     
 }
