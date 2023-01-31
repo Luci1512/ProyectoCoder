@@ -270,4 +270,63 @@ main {
   background-color: #ffffff;
 }
 
+.Error {
+  margin-left: 15%;
+  margin-top: 6%;
+}
+@media (max-width: 1000px) {
+  .Error {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+}
+
+.logoError {
+  width: 15rem;
+}
+@media (max-width: 1000px) {
+  .logoError {
+    width: 15rem;
+  }
+}
+@media (max-width: 768px) {
+  .logoError {
+    width: 10rem;
+  }
+}
+
+.error404 {
+  font-size: 6.5em;
+  font-family: serif;
+  padding-top: 2rem;
+}
+@media (max-width: 1000px) {
+  .error404 {
+    font-size: 4em;
+  }
+}
+
+.texto404 {
+  font-size: 1.5em;
+  font-family: serif;
+  margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .texto404 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 576px) {
+  .texto404 {
+    margin: 0 auto;
+    font-size: 1em;
+    margin-left: 2%;
+  }
+}
+
+.imgError {
+  width: 15rem;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.css.map */
